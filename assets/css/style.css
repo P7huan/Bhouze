@@ -667,6 +667,9 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
+.box__item-desc p {
+  line-height: 15px;
+}
 
 .seemore__link {
   font-size: 12px;
@@ -770,7 +773,7 @@ body {
   align-items: center;
   gap: 0 30px;
 }
-.top-header__contact-icon {
+.top-header__contact--icon {
   width: 25px;
   height: 25px;
 }
@@ -1086,7 +1089,7 @@ body {
 }
 
 .about__content {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 .about__content-wrap {
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);

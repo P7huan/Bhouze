@@ -29,6 +29,9 @@ body {
   &-desc {
     font-size: 12px;
     font-weight: 400;
+    p {
+      line-height: 15px;
+    }
   }
 }
 .seemore__link {
