@@ -1,0 +1,19 @@
+.banner {
+  height: 468px;
+  background-image: url(../images/banner.png);
+  &__content {
+    &-heading {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      padding: 140px 0;
+    }
+    &-desc {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 32px;
+      width: 593px;
+      margin-bottom: 16px;
+    }
+  }
+}

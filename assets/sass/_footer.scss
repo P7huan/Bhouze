@@ -1,0 +1,57 @@
+.footer {
+  &__container {
+    padding: 30px 0;
+    border-top: 0.75px solid #ffffff;
+    border-bottom: 0.75px solid #ffffff;
+  }
+  &__col,
+  &__info,
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    list-style: none;
+    &-item {
+      &--link {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        color: $white-color;
+      }
+    }
+    &-heading {
+      font-weight: 600;
+    }
+    &-text {
+      font-weight: 400;
+    }
+  }
+  &__col {
+    padding-left: 40px;
+  }
+  &__form {
+    background-color: $white-color;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    &-input {
+      width: 70%;
+      border: none;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    &-btn {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  &__social {
+    list-style: none;
+  }
+}
+.copyright {
+  height: 70px;
+}

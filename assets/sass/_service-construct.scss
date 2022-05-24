@@ -1,0 +1,41 @@
+.construct__content {
+  padding: 70px 0 30px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+  &-heading {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.construct__item {
+  &-content {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px 0;
+  }
+  &-link {
+    text-align: center;
+  }
+  &-desc {
+    font-size: 12px;
+    font-weight: 400;
+    height: 120px;
+  }
+}
+.construct__slide-img {
+  height: 834px;
+}
+.construct__seemore-link {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
+.construct__testimonial {
+  padding: 50px 30px;
+}

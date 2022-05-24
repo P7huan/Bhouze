@@ -1,0 +1,127 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+  padding: 10px 0 20px;
+  &__branding {
+    &-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    &-logo {
+      margin-right: 30px;
+    }
+    &-name {
+      font-weight: 700;
+      font-size: 12px;
+      color: $white-color;
+      transform: translateY(6px);
+    }
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    &-icon {
+      width: 25px;
+      height: 25px;
+    }
+    &-phone {
+      font-size: 12px;
+      font-weight: 400;
+      text-decoration: none;
+      color: $white-color;
+    }
+    &:nth-child(2) {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 14%;
+        left: 62%;
+        width: 1px;
+        background-color: #ffffff;
+        height: 18px;
+      }
+    }
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0 70px;
+  padding: 20px 0;
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $white-color;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0 68px;
+    list-style: none;
+    .active {
+      .nav__list-item--link {
+        text-decoration: underline;
+      }
+    }
+    &-item {
+      &--link {
+        font-size: 12px;
+        font-weight: 600;
+        color: $white-color;
+        text-decoration: none;
+      }
+      &--dropdown {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 90%;
+          left: -30%;
+          width: 200%;
+          height: 50px;
+          z-index: 10000;
+        }
+      }
+      &--dropdown:hover .menu__dropdown {
+        display: block;
+      }
+    }
+  }
+}
+.menu__dropdown {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #1d1d1d;
+  padding: 30px 0;
+  &-img {
+    opacity: 0.7;
+  }
+  &-link {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: $white-color;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .active {
+    .menu__dropdown-link {
+      text-decoration: underline;
+    }
+    .menu__dropdown-img {
+      opacity: 1;
+    }
+  }
+}
