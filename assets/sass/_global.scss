@@ -48,7 +48,7 @@ body {
 }
 .bread-crumbs {
   padding: 20px 0;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+  border-bottom: $line;
   &__list {
     list-style: none;
     display: flex;
