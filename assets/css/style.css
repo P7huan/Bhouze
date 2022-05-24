@@ -1321,6 +1321,7 @@ body {
 
 .acting__footer {
   position: relative;
+  margin-bottom: 70px;
 }
 .acting__footer-img {
   height: 1143px;
@@ -1332,6 +1333,22 @@ body {
   transform: translateX(-50%);
   font-size: 15px;
   color: #ffffff;
+}
+
+.build__banner-imgimg {
+  height: 813px;
+}
+
+.build__content {
+  margin: 50px 0;
+}
+.build__content-wrap {
+  padding-top: 30px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.6);
+}
+
+.build__box-title {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

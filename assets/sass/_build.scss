@@ -1,0 +1,15 @@
+.build__banner-img {
+  &img {
+    height: 813px;
+  }
+}
+.build__content {
+  margin: 50px 0;
+  &-wrap {
+    padding-top: 30px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.6);
+  }
+}
+.build__box-title {
+  font-size: 12px;
+}
