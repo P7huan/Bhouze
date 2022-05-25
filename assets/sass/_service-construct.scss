@@ -23,18 +23,22 @@
   &-desc {
     font-size: 12px;
     font-weight: 400;
-    height: 120px;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: initial;
   }
 }
 .construct__slide-img {
   height: 834px;
 }
 .construct__seemore-link {
-  position: absolute;
-  top: 97%;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 15px;
+  text-align: center;
+  margin: 20px 0;
 }
 .construct__testimonial {
   padding: 50px 30px;

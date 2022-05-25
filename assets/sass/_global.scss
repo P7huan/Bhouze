@@ -6,6 +6,9 @@ body {
   color: $primary-color;
   font-weight: 400;
 }
+.main {
+  overflow: hidden;
+}
 .box__item {
   border-bottom: 1px solid $primary-color;
   margin-bottom: 30px;

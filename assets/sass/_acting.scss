@@ -23,7 +23,7 @@
   }
   &-link {
     position: absolute;
-    top: 97%;
+    top: calc(100% - 36px);
     left: 50%;
     transform: translateX(-50%);
     font-size: 15px;

@@ -25,17 +25,58 @@
                 <h1 class="top-header__branding-name">BHOUZE ARCHITECTURE & CONSTRUCTION</h1>
               </a>
             </div>
-            <div class="top-header__contact">
+            <div class="top-header__contact hide-on-mobile-tablet">
               <img src="./assets/images/phone-icon.png" alt="" class="top-header__contact--icon" />
               <a href="tel:0934 73 23 23" class="top-header__contact-phone">0934 73 23 23</a>
               <a href="tel:0938 33 72 71" class="top-header__contact-phone">0938 33 72 71</a>
             </div>
+            <div class="nav__mobile">
+              <label for="open__nav-mobile" class="nav__mobile-icon"
+                ><img src="./assets/images/bars.svg" alt=""
+              /></label>
+              <input type="checkbox" class="nav__mobile-checkbox" hidden id="open__nav-mobile" />
+              <div class="nav__mobile-base">
+                <div class="mobile-base__header">
+                  <h1 class="mobile-base__heading">BHOUZE</h1>
+                  <label for="open__nav-mobile" class="mobile-base__close">
+                    <img src="./assets/images/close.svg" alt="" class="mobile-base__close-icon" />
+                  </label>
+                  <input type="checkbox" class="nav__mobile-checkbox" hidden id="open__nav-mobile" />
+                </div>
+                <div class="mobile-base__menu">
+                  <ul class="mobile-base__menu-list">
+                    <li class="mobile-base__menu-item">
+                      <a href="" class="mobile-base__menu-link">Giới Thiệu</a>
+                    </li>
+                    <li class="mobile-base__menu-item">
+                      <a href="" class="mobile-base__menu-link">Dịch vụ</a>
+                    </li>
+                    <li class="mobile-base__menu-item">
+                      <a href="" class="mobile-base__menu-link">Công trình</a>
+                    </li>
+                    <li class="mobile-base__menu-item">
+                      <a href="" class="mobile-base__menu-link">Blog</a>
+                    </li>
+                    <li class="mobile-base__menu-item">
+                      <a href="" class="mobile-base__menu-link">Liên hệ</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mobile-base__footer">
+                  <div class="top-header__contact">
+                    <img src="./assets/images/phone-icon.png" alt="" class="top-header__contact--icon" />
+                    <a href="tel:0934 73 23 23" class="top-header__contact-phone">0934 73 23 23</a>
+                    <a href="tel:0938 33 72 71" class="top-header__contact-phone">0938 33 72 71</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="nav">
+          <div class="nav hide-on-mobile-tablet">
             <h2 class="nav__heading">BHOUZE</h2>
             <ul class="nav__list">
               <li class="nav__list-item active">
-                <a href="" class="nav__list-item--link">GIỚI THIỆU</a>
+                <a href="about.html" class="nav__list-item--link">GIỚI THIỆU</a>
               </li>
               <li class="nav__list-item nav__list-item--dropdown">
                 <a href="" class="nav__list-item--link">DỊCH VỤ</a>
@@ -136,15 +177,15 @@
       <section class="about__content">
         <div class="grid wide about__content-wrap">
           <div class="row">
-            <div class="col l-6">
+            <div class="col l-6 m-12 c-12">
               <div class="about__content-img">
                 <img src="./assets/images/about pic 1.png" alt="" />
               </div>
             </div>
-            <div class="col l-6">
+            <div class="col l-6 m-12 c-12">
               <div class="about__content-text">
                 <div class="row">
-                  <div class="col l-6">
+                  <div class="col l-6 m-6 c-12">
                     <div class="about__content-text--col">
                       <p>
                         Đối với nhà có diện tích đủ rộng, thì Biệt thự chính là một chốn ở lý tưởng phục vụ đầy đủ các
@@ -159,7 +200,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="col l-6">
+                  <div class="col l-6 m-6 c-12">
                     <div class="about__content-text--col">
                       <p>
                         Là một công ty trẻ, nhưng cùng với sự quản lý và vận hành của đội ngũ lãnh đạo dày dặn kinh
@@ -185,7 +226,7 @@
       <section class="about__content">
         <div class="grid wide about__content-wrap">
           <div class="row">
-            <div class="col l-6">
+            <div class="col l-6 m-6 c-12">
               <div class="row">
                 <div class="col l-4">
                   <h3 class="about__content-title">TẦM NHÌN</h3>
@@ -199,7 +240,7 @@
                 </div>
               </div>
             </div>
-            <div class="col l-6">
+            <div class="col l-6 m-6 c-12">
               <div class="about__content-img">
                 <img src="./assets/images/about pic 2.png" alt="" />
               </div>
@@ -248,7 +289,7 @@
         <div class="footer__container">
           <div class="grid wide">
             <div class="row">
-              <div class="col l-2 m-4">
+              <div class="col l-2 m-4 c-4">
                 <ul class="footer__list">
                   <li class="footer__list-item">
                     <a href="" class="footer__list-item--link">GIỚI THIỆU</a>
@@ -267,7 +308,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col l-4 m-8">
+              <div class="col l-4 m-8 c-8">
                 <div class="footer__info">
                   <p class="footer__info-heading">
                     CÔNG TY TRÁCH NHIỆM HỮU HẠN TƯ VẤN THIẾT KẾ KIẾN TRÚC - XÂY DỰNG BH
@@ -278,7 +319,7 @@
                   <p class="footer__info-text">bhouze007@gmail.com</p>
                 </div>
               </div>
-              <div class="col l-6 m-12">
+              <div class="col l-6 m-12 c-12">
                 <div class="footer__col">
                   <p class="footer__info-heading">NHẬN BẢN TIN</p>
                   <div class="footer__form">
