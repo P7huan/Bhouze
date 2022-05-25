@@ -1,0 +1,38 @@
+// Table & Mobile
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none;
+  }
+  .nav__mobile {
+    display: block;
+  }
+  .testimonial__item-content {
+    max-width: 500px;
+  }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .top-header {
+    margin: 0 30px;
+  }
+  .box__item-title {
+    height: 36px;
+  }
+  .banner__content {
+    margin: 0 30px;
+  }
+  .service__item-img {
+    img {
+      width: 100%;
+    }
+  }
+}
