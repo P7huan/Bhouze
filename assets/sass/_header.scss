@@ -189,6 +189,28 @@
       color: $primary-color;
     }
   }
+  &__search {
+    margin: 16px 0;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    background-color: $primary-color;
+    &-input {
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      padding: 0 16px;
+    }
+    &-btn {
+      img {
+        width: 30px;
+      }
+      border: none;
+      background-color: transparent;
+      filter: brightness(100) invert(1);
+      margin-right: 16px;
+    }
+  }
   &__footer {
     padding: 16px 0;
   }
