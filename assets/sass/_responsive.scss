@@ -40,6 +40,9 @@
   .construct__slide-img {
     height: auto;
   }
+  .sticky {
+    border: none;
+  }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -114,5 +117,14 @@
     img {
       width: 100%;
     }
+  }
+  .about__content-text--col {
+    padding: 28px;
+  }
+  .about__content-title {
+    padding: 0 30px;
+  }
+  .about__content-desc {
+    padding: 0 30px;
   }
 }

@@ -11,13 +11,13 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="main grid">
-      <header class="header">
+      <header id="header__sticky" class="header">
         <div class="grid wide">
           <div class="top-header">
             <div class="top-header__branding">
@@ -50,7 +50,29 @@
                       <a href="" class="mobile-base__menu-link">Giới Thiệu</a>
                     </li>
                     <li class="mobile-base__menu-item">
-                      <a href="" class="mobile-base__menu-link">Dịch vụ</a>
+                      <span class="mobile-base__menu-link">Dịch vụ</span>
+                      <ul class="mobile__secondary-list">
+                        <li class="mobile__secondary-item">
+                          <a href="" class="mobile__secondary-link"
+                            ><img src="./assets/images/arrow_next.svg" alt="" /> Thiết kế kiến trúc</a
+                          >
+                        </li>
+                        <li class="mobile__secondary-item">
+                          <a href="" class="mobile__secondary-link"
+                            ><img src="./assets/images/arrow_next.svg" alt="" />Thiết kế nội thất</a
+                          >
+                        </li>
+                        <li class="mobile__secondary-item">
+                          <a href="" class="mobile__secondary-link"
+                            ><img src="./assets/images/arrow_next.svg" alt="" />Diễn hoạ 3D</a
+                          >
+                        </li>
+                        <li class="mobile__secondary-item">
+                          <a href="" class="mobile__secondary-link"
+                            ><img src="./assets/images/arrow_next.svg" alt="" />Thi công</a
+                          >
+                        </li>
+                      </ul>
                     </li>
                     <li class="mobile-base__menu-item">
                       <a href="" class="mobile-base__menu-link">Công trình</a>
@@ -547,5 +569,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
